@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="460.8" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainPageFiliale">
+   <bottom>
+      <AnchorPane prefHeight="71.0" prefWidth="461.0" style="-fx-background-color: #93e9be;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="deleteSelectedRowBtn" layoutX="371.0" layoutY="23.0" mnemonicParsing="false" onAction="#DeleteSelectedRowBtn" style="-fx-background-color: #df0c0c;" text="Delete" textFill="WHITE" />
+            <Button fx:id="addRowBtn" layoutX="285.0" layoutY="22.0" mnemonicParsing="false" onAction="#AddRowBtn" prefHeight="26.0" prefWidth="54.0" style="-fx-background-color: #1ec129;" text="Add" textFill="WHITE" />
+         </children></AnchorPane>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d8d8d8;" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="tableView" layoutX="1.0" prefHeight="332.0" prefWidth="461.0">
+              <columns>
+                <TableColumn fx:id="nume" prefWidth="111.20000839233398" text="Nume" />
+                <TableColumn fx:id="nrInregistrare" prefWidth="88.79998779296875" text="Nr.inregistrare" />
+                  <TableColumn fx:id="adresa" prefWidth="140.80003356933594" text="Adresa" />
+                  <TableColumn fx:id="nrTelefon" prefWidth="123.99993896484375" text="Nr.telefon" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

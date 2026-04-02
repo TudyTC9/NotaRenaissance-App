@@ -1,0 +1,7 @@
+sa admin 1 t c 060020067 123
+user john_doe password123 John Doe 1234567890 MainSt
+user jane_smith qwerty456 Jane Smith 0987654321 ElmSt
+empl alex_miller pass1234 Alex Miller 9876543210 OakSt
+user user 1 poh +poh 0987652321 fjas
+empl empl 1 poh poh 0987652322 dasf
+user tudor 123 tudor codreanu +37360020067 sos. Hancesti
